@@ -1,0 +1,45 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials/
+secrets/
+
+# Node.js (if tooling is added)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if tooling is added)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# Test output
+coverage/
+.pytest_cache/
+test-results/
+
+# MCP server local configs
+.mcp.json
